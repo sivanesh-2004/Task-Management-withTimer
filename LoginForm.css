@@ -1,0 +1,21 @@
+.input-st
+{
+    width: 250px;
+    height: 29px;
+    border-radius: 14px;
+    padding: 9px;
+    border: 2px solid grey;
+    font-size: 15px;
+    margin-left: 7px;
+}
+.login-bt-st
+{
+     background-color: goldenrod;
+     color: whitesmoke;
+    box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);
+    height: 30px;
+    width: 70px;
+    border-radius: 7%;
+    border-style: none;
+    font-size: medium;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="LoginForm.css">
+</head>
+<body>
+     
+     <div style=" display: flex; align-items: center; justify-content: center;  height: 100vh; background-color: black; color: white;">
+      
+ 
+        <form action="/" target="_blank" onsubmit="return(call(event))">
+
+           <div style="display: flex; width: 300px; justify-content: space-around;  align-items: center; padding: 30px;"> 
+            <label for="userName" style="font-size: 20px;">UserName:</label>
+            <input type="text" class="userName input-st" placeholder="Enter the userName..." required>
+          </div> 
+
+         <div style="display: flex; width: 300px; justify-content: space-between; align-items: center; padding: 30px;">
+            <label for="password" style="font-size: 20px;">Password:</label>
+            <input type="text" class="passWord input-st"  placeholder="Enter the password" required>
+        </div>
+
+        <div style="display: flex; width: 300px; justify-content: space-between; padding: 30px;">
+             <button class="login-bt-st" type="submit">Login</button>
+        </div>     
+
+        </form>
+
+
+     </div>
+
+</body>
+<script src="login.js"></script>
+</html>

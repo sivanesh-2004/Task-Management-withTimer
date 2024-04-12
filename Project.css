@@ -1,0 +1,62 @@
+.Change-btn
+{
+    background-color: green;
+    padding: 10px;
+    border-radius: 9px;
+    border: 2px solid  white;
+    color: white;
+    font-size: medium;
+}
+select
+{
+    width: 150px;
+    height: 40px;
+    border: 2px solid black;
+    font-size: smaller;
+    padding-left: 6px;
+    border-radius: 7px;
+}
+table,tr,td{
+    
+    font-size:15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table th{
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Change-btn:hover
+{
+   opacity: 0.7;
+}
+.Add-btn
+{
+   padding: 6px ;
+   width: 70px;
+   border-radius: 7px;
+   font-size: medium;
+   border: 2px solid white;
+   color: whitesmoke;
+   background-color: green;
+}
+.remove-btn
+{
+    width: 100px;
+    padding: 7px;
+    font-size: medium;
+    border: 2px solid white;
+    border-radius: 9px;
+    color: whitesmoke;
+    background-color: green;
+}
+.bt-st
+{
+    padding: 6px ;
+   width: 70px;
+   border-radius: 7px;
+   font-size: medium;
+   border: 2px solid white;
+   color: whitesmoke;
+   background-color: green;
+}

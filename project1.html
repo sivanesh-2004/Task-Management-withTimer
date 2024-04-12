@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Better Call Saul</title>
+  <link rel="stylesheet" href="Project.css">
+  <style>
+    .color {
+      color: brown;
+    }
+
+    table,
+    tr,
+    td,
+    th {
+      border: 2px solid rgb(69, 66, 66);
+      border-collapse: collapse;
+      padding: 15px;
+    }
+
+    td {
+      width: 200px;
+    }
+
+    th {
+      background-color: black;
+      color: whitesmoke;
+      border: 2px solid none;
+    }
+    label
+    {
+      font-size: large;
+      margin-bottom: 7px;
+    }
+    input{
+      width: 200px;
+      height: 35px;
+      margin-bottom:7px;
+      border-radius: 5px;
+      border: 2px solid grey;
+    }
+    .st-timer
+    {
+      font-size: large;
+      width: 10px;
+      height: 25px;
+      font-size: larger;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div style="text-align: center;color: rgb(71, 71, 77);">
+    <h1>Task View Table</h1>
+  </div>
+
+  <div style="display: flex;justify-content: space-around;">
+
+    <div class="main-div"></div>
+
+    <div style="display: flex;flex-direction: column;">
+
+      <select id="select-option">
+        <option value="work">Work</option>
+        <option value="PersonalSpace">Personal Space</option>
+      </select>
+      <button style="margin-top: 10px;" class="Change-btn" onclick=Change()>Change</button>
+
+      <form style="padding-top: 50px;">
+      
+        <div style="display: flex; flex-direction: column;">
+
+          <label for="Category">Category:</label>
+          <input type="text" placeholder="CategoryName..." class="categoryName">
+        </div>
+
+        <div style="display: flex; flex-direction: column;">
+          <label for="SubCategory">SubCategory:</label>
+          <input type="text" placeholder="SubCategoryName..." class="SubName">
+        </div>  
+
+        <div style="display: flex; flex-direction: column; margin-top: 7px; margin-bottom: 10px;">
+          <div><p style="font-size: large;">Duration:</p></div>
+          <div style=" width: 200px;display: flex;justify-content: space-between; font-size: medium;">
+           <span class="hour-spn st-timer">00</span>
+           <span>:</span>
+           <span class="min-spn st-timer">00</span>
+           <span>:</span>
+           <span class="sec-spn st-timer">00</span>
+          </div> 
+          <div style="margin-top: 13px;">
+              <div style="display: flex; justify-content:space-between;">
+                <button style="margin-right: 10px;" class="start-btn bt-st">Start</button>
+                <button style="margin-right: 10px;" class="stop-btn bt-st">Stop</button>
+                <button class="reset-btn bt-st">Reset</button>
+              </div>
+          </div>
+        </div>  
+
+
+        <div style="display: flex; flex-direction: column;">
+          <label for="Task">Task:</label>
+          <input type="text" placeholder="TaskName..." class="Tname">
+        </div>  
+          
+        <div style="display: flex; justify-content: space-between; margin-top: 10px;">
+         <button class="Add-btn Addnew">Add</button>
+         <button class="remove-btn">Remove</button>
+        </div>
+      </form>
+
+    </div>
+
+  </div>
+
+</body>
+<script src="Project1.js"></script>
+
+</html>
